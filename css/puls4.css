@@ -26,6 +26,7 @@ body {
   color: #444;
   font-family: Arial;
   font-size: 16px;
+  transition: font-size 1s;
 }
 footer {
   background: #dd4f24;
@@ -96,8 +97,11 @@ header .titular .publicar:before {
   margin: 0 3px 0 0;
   text-shadow: 1px 1px 0px #000;
 }
+header .titular .sizer {
+  text-decoration: none;
+}
 header .titular .titulo {
-  font-size: 18px;
+  font-size: 1.1em;
   font-weight: normal;
   margin: 0;
   padding: 0;
